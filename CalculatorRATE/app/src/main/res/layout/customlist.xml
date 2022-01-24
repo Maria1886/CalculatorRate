@@ -1,0 +1,88 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/adrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/ora"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txtOra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adrs"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/ora"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/nrtel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/manager"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/textManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adrs"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/manager"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/txtSucursala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/den"
+        android:layout_marginTop="5dp"
+        android:text="@string/sucursala"
+        android:textColor="@android:color/black"
+
+
+        />
+
+    <TextView
+        android:id="@+id/den"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="5dp"
+        android:text="@string/sucursala"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <Spinner
+        android:id="@+id/spnNrRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="486dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="555dp"
+        android:text="@string/nr_rate"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edtSalariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="407dp"
+        android:ems="10"
+        android:hint="@string/salariu"
+        android:inputType="textPersonName" />
+
+
+    <SeekBar
+        android:id="@+id/skbCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="350dp"
+        android:max="10000"
+        android:min="1"
+        android:minHeight="5dp" />
+
+
+    <Button
+        android:id="@+id/btnAdauga"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="224dp"
+        android:text="Salveaza simulare rata" />
+
+    <TextView
+        android:id="@+id/seekText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="310dp"
+        android:text=""
+        android:textStyle="bold"
+
+        />
+
+
+</RelativeLayout>

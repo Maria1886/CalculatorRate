@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CalculatorRATE</string>
+    <string name="title_activity_menu_calculator_rate">MenuCalculatorRate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Acasa</string>
+    <string name="menu_gallery">Informatii Credit</string>
+    <string name="menu_slideshow">Calculator Rate</string>
+    <string name="menu_ecran">Acasa</string>
+    <string name="adresa_email">Adresa Email</string>
+    <string name="parola">Parola</string>
+    <string name="nume">Nume</string>
+    <string name="am_peste_18_ani">Am peste 18 Ani!</string>
+    <string name="inregistrare">Inregistrare</string>
+    <string name="calendar">Calendar</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="ora">Ora</string>
+    <string name="manager">Manager</string>
+    <string name="sucursala">Sucursala</string>
+    <string name="nr_rate">Nr rate</string>
+    <string name="salariu">Salariu</string>
+    <string name="calculeaza_rate">Calculeaza rate</string>
+    <string name="calculeaza_credit">Calculeaza Credit</string>
+    <string name="valoare_credit">Valoare Credit</string>
+    <string name="afisare_calcul_rate">Afisare Calcul Rate</string>
+    <string name="salveaza_simulare_rata">Salveaza simulare rata</string>
+    <string name="program_sucursale">Program Sucursale</string>
+
+
+</resources>
